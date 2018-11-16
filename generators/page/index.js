@@ -24,6 +24,7 @@ module.exports = class extends Generator {
     super(args, opts);
 
     this.userName = getName() || getName(true);
+    console.log('>>>>> generator page:', this.destinationRoot(), this.sourceRoot());
   }
 
   prompting() {
