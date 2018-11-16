@@ -1,6 +1,6 @@
 {
   "name": "workflow-plugin-test1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "test for workflow plugin",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/longyiyiyu/workflow-plugin-test1/issues"
   },
-  "homepage": "https://github.com/longyiyiyu/workflow-plugin-test1#readme"
+  "homepage": "https://github.com/longyiyiyu/workflow-plugin-test1#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "fs-access": "^1.0.1",
+    "imweb-git-user-name": "^0.1.0",
+    "shelljs": "^0.8.2",
+    "yeoman-generator": "^1.1.0"
+  }
 }
